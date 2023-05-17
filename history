@@ -1,0 +1,8 @@
+    oc get pods
+    2  oc get bc
+    3  oc edit bc/hpapp
+    4  oc get svc
+    5  oc get route
+    
+    oc expose svc/myapp
+    oc new-app https://github.com/vijkes/oc.git --name=myapp
