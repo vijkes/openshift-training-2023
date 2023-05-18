@@ -6,3 +6,6 @@
     
     oc expose svc/myapp
     oc new-app https://github.com/vijkes/oc.git --name=myapp
+    
+    oc rsh <podname>
+    oc run mypod --image=tomcat
