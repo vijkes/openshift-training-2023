@@ -9,3 +9,4 @@
     
     oc rsh <podname>
     oc run mypod --image=tomcat
+    oc create deployment (deployment name) --image=(image name )
