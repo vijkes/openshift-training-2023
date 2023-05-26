@@ -10,3 +10,9 @@
     oc rsh <podname>
     oc run mypod --image=tomcat
     oc create deployment (deployment name) --image=(image name )
+    
+-------------------------------------------------day6-----------------------------------------------------------
+  606  oc login --token=sha256~rVU3powOoXMKoADhfmtj0jHGpuk --server=https://api.sandbox-m2.ll9d.p1.openshiftapps.com:6443 
+  507  oc run web --image=vijkes/node-hello-world:v1
+  501  oc whoami
+  512  oc get pods web -o yaml
